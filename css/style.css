@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    font-family:'Montserrat', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* section one */
+
+.sec-one{
+    width: 100%;
+    background-color: #594977;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.header{
+    width: 60%;
+    margin: 0 auto;
+}
+.first-two h1{
+    font-size: 45px;
+    color: #fff;
+    padding: 0 10PX;
+}
+.first-two p{
+    font-size: 22px;
+    color: #fff;
+}
+.first-two a{
+    padding: 15px 60px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00BC8A;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.first-two{
+    width: 48%;
+    float: left;
+    border-right:1px solid  #bdbdbd;
+    padding: 40px 0;
+}
+.header .right{
+    float: right;
+    padding: 45px 0;
+    border-right: 0;
+}
+
+/* section two */
+
+.sec-two{
+    width: 100%;
+    padding: 100px 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.cheak-box{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.second-two{
+    width: 45%;
+    float: left;
+}
+
+.second-two h2{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.second-two p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0;
+    color: #bdbdbd;
+}
+.second-two a{
+   padding:10px 40px ;
+   text-decoration: none;
+   color: #bdbdbd;
+   border: 1px solid #bdbdbd;
+   display: inline-block;
+   border-radius: 20px;
+   margin-top: 20px ;
+}
+.cheak-box .cheak-right{
+    float: right;
+    border-left: 1px solid #bdbdbd;
+}
+.cheak-box .cheak-right P{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.cheak-box .cheak-right P span{
+    color: #00BC8A;
+    margin-right: 10px;
+}
+
+/* section three */
+
+.sec-three{
+    width: 100%;
+   padding: 100px 0;
+   background-color: aliceblue;
+}
+.master{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-button{
+    padding: 20px 60px;
+    display: inline-block;
+    border: 1px solid #bdbdbd;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #bdbdbd;
+    margin-bottom: 50px;
+}
+.top{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #bdbdbd;
+}
+.img-sec{
+    width: 45%;
+    float: left;
+}
+.img-sec img{
+    width: 100%;
+}
+.para{
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 100px;
+}
+.para h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.para p{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 30px 0;
+}
+.para a{
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 1px solid #bdbdbd;
+    display: inline-block;
+    border-radius: 20px;
+    color: #bdbdbd;
+}
+
+/* section four */
+
+.sec-four{
+    width: 100%;
+    padding: 100px 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.sub-box{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #bdbdbd;
+    padding-right: 20px;
+}
+.sub-box h2{
+    font-size: 40px;
+    margin: 30px 0;
+}
+.sub-box p{
+    font-size: 20px;
+    margin: 30px 0;
+}
+.sub-box form input{
+    padding:20px 10px ;
+}
+.sub-box form textarea{
+    padding:20px 10px ;
+}
+.name{
+    width: 46%;
+    height:4%;
+    float: left;
+}
+.e-mail{
+    
+    float: right;
+}
+.message{
+    width: 100%;
+    height: 20%;
+    margin: 30px 0;
+}
+.submit{
+    width: 40%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #bdbdbd;
+}
+.intro-box{
+    width: 45%;
+    float: right;
+}
+.intro-box a{
+    display: block;
+    margin: 30px 0;
+    color: #00BC8A;
+    font-size: 20px;
+}
+.intro-box a i span{
+    color: #bdbdbd;
+    margin-left: 15px;
+}
+
+/* section five */
+
+.footer{
+    text-align: center;
+    padding: 70px 0;
+}
+.footer p{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.footer p span{
+    color: #00BC8A;
+}
+
+/* media query start here */
+
+@media only screen and ( max-width:1500px){
+    .para{
+        position: relative;
+        top: 40px;
+        }
+        .para h2{
+            font-size: 25px;
+            margin: 15px 0;
+        }
+        .para p{
+            font-size: 18px;
+            line-height: 22px;
+            margin: 20px 0;
+        }
+    }
+    @media only screen and ( max-width:1300px){
+        .sec-one{
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+        .sec-two{
+            padding: 50px 0;
+        }
+        .sec-three{
+           padding: 50px 0;
+        }
+        .sec-four{
+            padding: 5  0px 0;
+        }
+        .footer{
+            padding: 50px 0;
+        }
+        .second-two{
+            width: 100%;
+            padding: 30px 0;
+        }
+        .cheak-box .cheak-right{
+            border-left: 0px;
+            border-top: 1px solid #bdbdbd;
+        }
+        .para{
+            position: relative;
+            top: 30px;
+            }
+            .para h2{
+                font-size: 25px;
+                margin: 15px 0;
+            }
+            .para p{
+                font-size: 18px;
+                line-height: 22px;
+                margin: 20px 0;
+            }
+            .sub-box{
+                width: 100%;
+                border-right: 0px;
+                border-bottom: 1px solid #bdbdbd;
+                padding-bottom: 30px    ;
+            }
+            .intro-box{
+                width: 100%;
+            }
+        }
+        @media only screen and ( max-width:1000px){
+            .sec-one{
+                padding-top: 100px;
+                padding-bottom: 50px;
+            }
+            .first-two{
+                width: 100%;
+                float: none;
+                border-right: 0px;
+                border-bottom:1px solid  #bdbdbd;
+                padding: 40px 0;
+            }
+            .header .right{
+                border-bottom: 0px;
+            }
+            .para{
+                position: relative;
+                top: 10px;
+                }
+                .para h2{
+                    font-size: 20px;
+                    margin: 10px 0;
+                }
+                .para p{
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin: 15px 0;
+                }
+                .para a{
+                    padding: 10px 40px;
+                    text-decoration: none;
+                    border: 1px solid #bdbdbd;
+                    display: inline-block;
+                    border-radius: 20px;
+                    color: #bdbdbd;
+                }
+            }
+         @media only screen and ( max-width:768px){
+                .img-sec{
+                    width: 100%;
+                    float: none;
+                }
+                .para{
+                    float: right;
+                    width: 100%;
+                    position: relative;
+                    top: 0px;
+                    margin: 20px 0;
+                }
+                .cheak-box .cheak-right P{
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    font-size: 15px;
+                    letter-spacing: 0px;
+                }
+                .footer p{
+                    font-size: 18px;
+                    text-transform: uppercase;
+                }
+        }
+        @media only screen and ( max-width:575px){
+            .header{
+                width: 80%;
+                padding: 0 10px;
+            }
+            .cheak-box{
+                width: 80%;
+                padding: 0 10px;
+            }
+            .master{
+                width: 80%;
+                padding: 0 10px;
+            }
+            .container{
+                width: 80%;
+                padding: 0 10px;
+            }
+            .first-two h1{
+                font-size: 35px;
+            }
+            .first-two p{
+                font-size: 18px;
+            }
+            .first-two a{
+                padding: 10px 40px;
+            }
+            .second-two h2{
+                font-size: 25px;
+                margin-top: 20px;
+            }
+            .second-two p{
+                font-size: 18px;
+            }
+            .bottom-button{
+                padding: 10px 40px;
+                font-size: 15px;
+                margin-bottom: 0px;
+            }
+            .second-two a{
+              
+               margin-top: 0px ;
+            }
+            .cheak-box .cheak-right P{
+                margin-left: 0px;
+                font-size: 15px;
+            }
+            .cheak-box .cheak-right P span{
+                margin-right: 8px;
+            }
+            .sub-box h2{
+                font-size: 25px;
+                margin: 30px 0;
+            }
+            .sub-box p{
+                font-size: 15px;
+                margin: 30px 0;
+            }
+            .para a{
+                padding: 10px 20px;
+            }
+            .submit{
+                width: 40%;
+                height: 30px;
+                border-radius: 25px;
+                border: 1px solid #bdbdbd;
+            }
+            .intro-box a{
+                font-size: 15px;
+            }
+            .footer p{
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+        }
+    @media only screen and ( max-width:400px){
+        .first-two h1{
+            font-size: 25px;
+        }
+        .first-two p{
+            font-size: 18px;
+        }
+        .second-two h2{
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .second-two p{
+            font-size: 15px;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 30px 0;
+        }
+        .cheak-box .cheak-right P{
+            margin-left: 0px;
+            margin-top: 0px;
+            font-size: 13px;
+        }
+        .cheak-box .cheak-right P span{
+            margin-right: 5px;
+        }
+        .sub-box h2{
+            font-size: 25px;
+            margin: 30px 0;
+        }
+        .sub-box p{
+            font-size: 15px;
+            margin: 30px 0;
+        }
+        .name{
+            width: 100%;
+            margin: 10px 0;
+        }
+        .submit{
+            width: 40%;
+            height: 30px;
+            border-radius: 25px;
+            border: 1px solid #bdbdbd;
+        }
+        .message{
+            margin: 10px 0;
+        }
+        .bottom-button{
+            padding: 10px 30px;
+            font-size: 14px;
+        }
+        .intro-box a{
+            font-size: 15px;
+        }
+        .footer{
+            padding: 30px 0;
+        }
+        .footer p{
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+}
+
